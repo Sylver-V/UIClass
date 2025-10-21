@@ -68,7 +68,17 @@ namespace Screen
                 uiBackGround.enabled = true;
             }
 
-           Invoke(nameof(StartType), delayBetweenObjects * listOfObjects.Count);
+            foreach (var obj in listOfObjects)
+            {
+                var scaler = obj.GetComponent<ButtonScaler>();
+                if (scaler != null)
+                {
+                    scaler.ResetColor();
+                }
+            }
+
+
+            Invoke(nameof(StartType), delayBetweenObjects * listOfObjects.Count);
         }
 
         private void StartType()
