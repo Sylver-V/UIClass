@@ -142,8 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalScale: 1
   scaleDuration: 0.1
-  hoverColor: {r: 0, g: 0.023826122, b: 1, a: 1}
-  defaultColor: {r: 0.0141509175, g: 0.07879339, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &64855619 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 480718068961170402, guid: f714e7f1fe33cdf4e8965b9316e85e05, type: 3}
@@ -5970,8 +5970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalScale: 1
   scaleDuration: 0.1
-  hoverColor: {r: 1, g: 0.96355355, b: 0, a: 1}
-  defaultColor: {r: 1, g: 0.9372188, b: 0, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!224 &1378032499 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5734533807765726398, guid: 75f56cf3373b497438a941b7fbc972e8, type: 3}
